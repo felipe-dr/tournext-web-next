@@ -1,5 +1,5 @@
 {
-  "name": "a1.3",
+  "name": "tournext-web-next",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,13 +7,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
+    "start:static": "npx http-server ./out -c-1",
     "lint": "next lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@skynexui/components": "1.24.3",
     "next": "12.0.8",
+    "nookies": "2.5.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }
